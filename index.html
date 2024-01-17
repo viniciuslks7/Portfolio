@@ -1,0 +1,271 @@
+<!-- Declaração do tipo de documento e idioma -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadados para configuração do documento -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Metadados principais -->
+    <title>Portfolio</title>
+   
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/favicon/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="assets/favicon/android-chrome-512x512.png"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header id="hero">
+      <!-- Barra de navegação -->
+      <nav class="navbar">
+        <div class="container">
+          <!-- Logotipo -->
+          <h1 id="logo">
+            <a href="https://www.linkedin.com/in/vinicius-oliveira-72698a1ab/"
+              ><img src="./assets/logoSomenteBeckermannDev.png" alt="Your Logo"
+            /></a>
+          </h1>
+          <!-- Links da barra de navegação -->
+          <ul class="nav-menu">
+            <li><a class="nav-link" href="#projects">PROJETOS</a></li>
+            <li><a class="nav-link" href="#">CONTATO</a></li>
+            <li><a class="nav-link" href="#">BlOG</a></li>
+            <li>
+              <a
+                class="nav-link btn btn-primary"
+                href="https://www.linkedin.com/in/vinicius-oliveira-72698a1ab/"
+                >CONHEÇA-ME <i class="fas fa-arrow-right"></i
+              ></a>
+            </li>
+
+            <!-- Interruptor de tema -->
+            <div class="theme-switch">
+              <input type="checkbox" id="switch" />
+              <label class="toggle-icons" for="switch">
+                <img class="moon" src="assets/moon.svg" />
+                <img class="sun" src="assets/sun.svg" />
+              </label>
+            </div>
+            <!-- Ícone de menu Hamburger -->
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Conteúdo principal do cabeçalho -->
+      <section class="header-container">
+        <!-- Imagem do perfil e introdução -->
+        <img
+          id="profileImage"
+          class="profile-image"
+          src="assets/LogoSomenteIMAGEM.png"
+          alt="Somente logo"
+        />
+        <h1>printf("Vinicius Beckermann)"</h1>
+
+        <!-- Texto de introdução adicional -->
+        <div class="content-text">
+          <h2>Desenvolvedor</h2>
+          <h2>Dados, sistemas, e funcionalidades.</h2>
+
+          <p>
+            Um Desenvolvedor Back-End com experiência em desenvolvimento no servidor, gerenciamento de banco de dados
+            e funcionalidades de sistema. Experiente na construção de soluções robustas e escaláveis.
+          </p>
+        </div>
+        <!-- Botão de chamada para ação -->
+        <a
+          href="https://www.linkedin.com/in/vinicius-oliveira-72698a1ab/"
+          class="btn btn-secondary"
+          target="_blank"
+          >Conecte-se Comigo</a
+        >
+      </section>
+    </header>
+
+    <!-- Projetos -->
+    <section id="projects" class="project-container container">
+      <!-- Divisão e texto de título -->
+      <div class="division"></div>
+      <div class="content-text">
+        <h2>Projetos</h2>
+        <p>Dê uma olhada em alguns dos meus projetos pessoais</p>
+      </div>
+
+      <!-- Artigo contendo os cartões de projeto -->
+      <article class="project">
+        <!-- Projeto 1 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Sistema CRUD</h3>
+              <p>NodeJS, Express, Javascript</p> 
+            </div>
+
+            <!-- Links do projeto 1 -->
+            <div class="project-link">
+              <a href="https://github.com/viniciuslks7/CRUD-NodeJS" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 2 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Tela Login</h3>
+              <p>HTML, CSS</p>
+            </div>
+
+            <!-- Links do projeto 2 -->
+            <div class="project-link">
+              <a href="https://github.com/viniciuslks7/Tela-Login" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 3 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Pokedex</h3>
+              <p>HTML, CSS, JavaScript, PokeAPI</p>
+            </div>
+
+            <!-- Links do projeto 3 -->
+            <div class="project-link">
+              <a href="https://github.com/viniciuslks7/Pokedex" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://manualdodev.github.io/pokedex/" target="_blank"><i class="fas fa-globe"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 4 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Site Informativo</h3>
+              <p>HTML, CSS, Javascript</p>
+            </div>
+
+            <!-- Links do projeto 4 -->
+            <div class="project-link">
+              <a href="https://github.com/viniciuslks7/Informativo-MigrateDev" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 5 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Ficha Automática T20</h3>
+              <p>TypeScript, CSS</p>
+            </div>
+
+            <!-- Links do projeto 5 -->
+            <div class="project-link">
+              <a href="https://github.com/viniciuslks7/Ficha-Estilizada-T20" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 6 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Site com BOOSTRAP</h3>
+              <p>HTML, CSS, JavaScript</p>
+            </div>
+
+            <!-- Links do projeto 6 -->
+            <div class="project-link">
+              <a href="https://github.com/viniciuslks7/Boostrap-MigrateDev" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Botão "See More" -->
+      <a href="https://github.com/viniciuslks7" class="btn btn-secondary"
+        target="_blank" >Veja mais Projetos<i class="fas fa-arrow-right"></i
+      ></a>
+    </section>
+
+    <!-- Rodapé -->
+    <footer id="footer">
+      <div class="container">
+        <!-- Email de contato -->
+        <a href="mailto:vinicius.oliveiratwt@gmail.com">vinicius.oliveiratwt@gmail.com</a>
+        <!-- Links sociais -->
+        <div class="social">
+          <a href="#" target="_blank"
+            ><img src="./assets/facebook-icon.svg" alt="Facebook"
+          /></a>
+          <a href="#" target="_blank"><img src="./assets/twitter-icon.svg" alt="Twitter" /></a>
+          <a href="https://www.linkedin.com/in/vinicius-oliveira-72698a1ab/" target="_blank"
+            ><img src="./assets/linkedin-icon.svg" alt="Linkedin"
+          /></a>
+          <a href="https://github.com/viniciuslks7" target="_blank"><img src="./assets/github-icon.svg" alt="GitHub" /></a>
+          <a href="#" target="_blank"
+            ><img src="./assets/hashnode-icon.svg" alt="Hashnode"
+          /></a>
+        </div>
+        <!-- Atribuição -->
+        <div class="attribution">
+          <!-- espaçamento -->
+        </div>
+        <!-- Direitos autorais -->
+        <p>Beckermann &copy; Developer <span id="datee"></span>, Todos os direitos reservados.</p>
+      </div>
+    </footer>
+    <!-- Script JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
